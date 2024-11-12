@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chat application</title>
+    <script  src="http://localhost:8000/socket.io/socket.io.js" defer> 
+        //A standalone build of client exposed by default by the server at...
+        //Connection is established between the server and client
+    </script>
+    <script  src="js/client.js" defer></script>
+    <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+    <nav>
+        <img class="logo"src="chat.png" alt=""/>
+        <h1>Welcome to chat application</h1>
+    </nav>
+    <div class="container">
+        <!-- <div class="message right">Harry: How are you?</div>
+        <div class="message left">Rohan: I am fine. How about you</div> -->
+    </div>
+    <div class="send">
+        <form action="#" id="send-container">
+            <input type="text" name="messageInp" id="messageInp">
+            <button class="btn" type="submit">Send</button>
+        </form>
+    </div>
+</body>
+</html>
